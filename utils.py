@@ -65,7 +65,7 @@ def visualize_loss(loss_1, loss_2, first_legend, second_legend, y_label):
     plt.title("{} and {} Loss During Training".format(first_legend, second_legend))
     plt.plot(loss_1, label=first_legend)
     plt.plot(loss_2, label=second_legend)
-    plt.xlabel("iterations")
+    plt.xlabel("Epochs")
     plt.ylabel(y_label)
     plt.grid(True)
     plt.tight_layout()
